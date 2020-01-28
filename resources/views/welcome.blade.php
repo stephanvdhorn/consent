@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Sloppy.io</title>
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
         <link href="https://unpkg.com/@tailwindcss/custom-forms@0.2.1/dist/custom-forms.min.css" rel="stylesheet">
         <!-- Styles -->
@@ -35,7 +35,7 @@
             }
 
             .full-height {
-                height: 100vh;
+                min-height: 100vh;
             }
 
             .flex-center {
@@ -70,7 +70,7 @@
             }
             input[type='submit'].link {
                 background: none;
-                color: #1b2663;
+                color: #999;
                 text-decoration:underline;
             }
 
@@ -97,10 +97,21 @@
                     </svg>
                 </div>
 
-                <div class="mb-16">
-                    <h1 class="text-4xl">Continue your Sloppy.io services</h1>
+                <div class="my-16">
+                    <h1 class="text-4xl mt-8">Continue your Sloppy.io services</h1>
                 </div>
-                <div class="rounded text-lg w-full p-8 form-container">
+                <div class="rounded text-lg w-full p-8 form-container container">
+                    <div class="text-left pb-4">
+                        <p class="mb-4">
+                            Hi there!
+                        </p><p class="mb-4">
+                            Thank you for taking the time to ensure we can proceed running your services at Sloppy.io as smoothly as possible.
+                        </p><p class="mb-4">
+                            Although we will keep using the Sloppy.io name, all assets of “Sloppy.io GmbH” will be transferred to Astralus B.V. a company registered in Middelburg, The Netherlands which will be the new owner as from this moment on.
+                        </p><p class="mb-4">
+                            By continuing your Sloppy.io services, you hereby agree that your current agreement with Sloppy.io GmbH shall be transferred under the same terms and conditions to Astralus B.V. and that Astralus B.V. shall be entitled to make use of the data you provided to Sloppy.io including the contact details and billing information so that Astralus B.V. is able to contact and bill you in the same manner as was the case with Sloppy.io GmbH.
+                        </p>
+                    </div>
                     <form action="/consent" method="POST">
                         @csrf
                         <div>
