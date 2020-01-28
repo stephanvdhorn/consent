@@ -123,13 +123,15 @@
                             <input type="hidden" name="userid" value="{{ request()->userid }}">
                         </div>
                     </form>
+                    <!---
                     <form action="/deny" method="POST">
-                        @csrf
+                        {{-- @csrf --}}
                         <div class="mt-4">
                             <small><input type="submit" class="link" value="Discontinue my services" /></small>
                             <input type="hidden" name="userid" value="{{ request()->userid }}">
                         </div>
                     </form>
+                    --->
                 </div>
 
             </div>

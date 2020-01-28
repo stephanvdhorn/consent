@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb5ffb70-d74d-44e6-983f-af57b082d0cf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/bye.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/bye.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/thanks.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/thanks.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -159,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580221012620</updated>
       <workItem from="1580221013868" duration="4193000" />
-      <workItem from="1580227296520" duration="71000" />
+      <workItem from="1580227296520" duration="156000" />
     </task>
     <servers />
   </component>
